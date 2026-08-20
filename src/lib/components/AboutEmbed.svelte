@@ -1,15 +1,15 @@
 <script lang="ts">
-	import discordLogo from '$lib/assets/icons/discord.png';
+	import aboutLogo from '$lib/assets/icons/about.png';
 </script>
 
 <a
 	class=" mb-4 flex w-full items-center justify-center gap-4 hover:cursor-pointer"
-	href="https://discord.gg/behPY8KUSM"
+	href="https://asbedb.dev/musings/scapedle-game/"
 	target="_blank"
 >
 	<img
-		src={discordLogo}
-		alt="Discord Logo"
+		src={aboutLogo}
+		alt="About Logo"
 		width="40px"
 		height="40px"
 		class="rounded-full hover:scale-110"

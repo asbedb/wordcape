@@ -8,6 +8,8 @@
 	import GameBoard from '$lib/components/GameBoard.svelte';
 	import WordCount from '$lib/components/WordCount.svelte';
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
+	import GitHubEmbed from '$lib/components/GitHubEmbed.svelte';
+	import AboutEmbed from '$lib/components/AboutEmbed.svelte';
 	initStore(data as ExternalData);
 </script>
 
@@ -19,6 +21,10 @@
 		<EmojiHint emojiHint={gameData.emojiHint} />
 		<WordNumber wordNumber={gameData.wordNumber} />
 		<GameBoard />
-		<DiscordEmbed />
+		<div class="flex justify-center gap-4">
+			<DiscordEmbed />
+			<AboutEmbed />
+			<GitHubEmbed />
+		</div>
 	</div>
 </div>

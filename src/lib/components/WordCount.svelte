@@ -1,11 +1,11 @@
 <script lang="ts">
 	let { wordCount } = $props<{ wordCount: number }>();
-	const message = $derived(`${wordCount} words you can guess!`);
+	const message = $derived(`${wordCount} words - Crafting update is live!`);
 	const characters = $derived(message.split(''));
 </script>
 
 <div class="flex w-full items-center justify-center text-center">
-	<span class="text-lg text-osrs-blue">
+	<span class="text-lg text-osrs-yellow">
 		{#each characters as char, i (i)}
 			<span class="wavy" style="animation-delay: {i * 0.1}s">
 				{char === ' ' ? '\u00A0' : char}
