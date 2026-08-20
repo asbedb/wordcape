@@ -1,15 +1,15 @@
 <script lang="ts">
-	import discordLogo from '$lib/assets/icons/discord.png';
+	import gitHubLogo from '$lib/assets/icons/github.png';
 </script>
 
 <a
 	class=" mb-4 flex w-full items-center justify-center gap-4 hover:cursor-pointer"
-	href="https://discord.gg/behPY8KUSM"
+	href="https://github.com/asbedb/Scapedle"
 	target="_blank"
 >
 	<img
-		src={discordLogo}
-		alt="Discord Logo"
+		src={gitHubLogo}
+		alt="Github Logo"
 		width="40px"
 		height="40px"
 		class="rounded-full hover:scale-110"

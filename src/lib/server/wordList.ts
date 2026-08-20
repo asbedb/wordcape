@@ -1,10 +1,21 @@
 // OSRS WORDLE ITEM HINTS
 // Format: { itemName, emojiHint, wordHint }
 // Assisted via source - https://oldschool.runescape.wiki
+/*
+DONE
+- Mining
+- Woodcutting
+- Fishing
+- Farming
+- Herblore
+- Runecrafting
+- Fletching
+- Crafting
+*/
 
 export const WORD_LIST = [
 	// ============================================================
-	// MINING
+	// MINING - https://oldschool.runescape.wiki/w/Mining
 	// ============================================================
 	// ORES https://oldschool.runescape.wiki/w/Mining#Mineable_items
 	{ itemName: 'Clay', emojiHint: '🧱🏺⚒️', wordHint: 'ceramic' },
@@ -76,7 +87,7 @@ export const WORD_LIST = [
 	{ itemName: 'Prospector legs', emojiHint: '👖⛏️🪨✨🟡', wordHint: 'mining drip' },
 	{ itemName: 'Prospector boots', emojiHint: '👢⛏️🪨✨🟡', wordHint: 'mining drip' },
 	// ============================================================
-	// WOODCUTTING
+	// WOODCUTTING - https://oldschool.runescape.wiki/w/Woodcutting
 	// ============================================================
 	// LOGS https://oldschool.runescape.wiki/w/Woodcutting#Logs
 	{ itemName: 'Logs', emojiHint: '🪵🌲🪓🔥🏕️', wordHint: 'chop' },
@@ -114,7 +125,7 @@ export const WORD_LIST = [
 	{ itemName: 'Dragon axe', emojiHint: '🪓🐉🔩🌲⚔️', wordHint: 'spec' },
 	{ itemName: 'Third age axe', emojiHint: '🪓🏛️✨🌲🏆', wordHint: '2+1' },
 	{ itemName: 'Infernal axe', emojiHint: '🪓🌋🔥🌲⚔️', wordHint: 'cerb' },
-	{ itemName: 'Crystal axe', emojiHint: '🪓💎✨🌲⚔️', wordHint: 'elf' },
+
 	// FELLING AXES
 	{ itemName: 'Bronze felling axe', emojiHint: '🍂🪓🟫🔩🌲⚔️', wordHint: 'dizzy' },
 	{ itemName: 'Iron felling axe', emojiHint: '🍂🪓⚫🔩🌲⚔️', wordHint: 'dizzy' },
@@ -147,7 +158,7 @@ export const WORD_LIST = [
 	{ itemName: 'Lumberjack legs', emojiHint: '👖🌲🪓✨🟤', wordHint: 'wood' },
 	{ itemName: 'Lumberjack boots', emojiHint: '👢🌲🪓✨🟤', wordHint: 'wood' },
 	// ============================================================
-	// FISHING
+	// FISHING - https://oldschool.runescape.wiki/w/Fishing
 	// ============================================================
 	// FISH (NAME ONLY) https://oldschool.runescape.wiki/w/Fish
 	{ itemName: 'Shrimp', emojiHint: '🦐🌊🎣🪣🛶', wordHint: 'small net' },
@@ -235,7 +246,7 @@ export const WORD_LIST = [
 	{ itemName: 'Spirit angler waders', emojiHint: '👻👖🎣🌊✨🔵', wordHint: 'bonus xp' },
 	{ itemName: 'Spirit angler boots', emojiHint: '👻👢🎣🌊✨🔵', wordHint: 'bonus xp' },
 	// ============================================================
-	// FARMING
+	// FARMING - https://oldschool.runescape.wiki/w/Farming
 	// ============================================================
 	// EQUIPMENT https://oldschool.runescape.wiki/w/Farming
 	{ itemName: 'Rake', emojiHint: '🧹🌱🌿🚜🧱', wordHint: 'weeds' },
@@ -363,7 +374,7 @@ export const WORD_LIST = [
 	{ itemName: 'Farmers boro trousers', emojiHint: '👖🌾🌱✨🟡', wordHint: 'farm' },
 	{ itemName: 'Farmers boots', emojiHint: '👢🌾🌱✨🟡', wordHint: 'farm' },
 	// ============================================================
-	// HERBLORE
+	// HERBLORE - https://oldschool.runescape.wiki/w/Herblore
 	// ============================================================
 	// HERBS (NO GRIMY) https://oldschool.runescape.wiki/w/Herblore#Cleaning_herbs_&_unfinished_potions
 	{ itemName: 'Guam leaf', emojiHint: '🌿⚔️🧪🟢🧼', wordHint: 'attack' },
@@ -522,7 +533,7 @@ export const WORD_LIST = [
 	{ itemName: 'Celastrus bark', emojiHint: '🌳🪵🪄🪄✨', wordHint: 'battlestaff' },
 	// COMPONENTS
 	{ itemName: 'Bow strings', emojiHint: '🧵🏹🎻✨🎯', wordHint: 'spinning' },
-	{ itemName: 'Crossbow strings', emojiHint: '🧵🏹🐄🍖🥩', wordHint: 'beef' },
+	{ itemName: 'Crossbow string', emojiHint: '🧵🏹🐄🍖🥩', wordHint: 'sinew' },
 	{ itemName: 'Crossbow limbs', emojiHint: '🪵⚒️⛓️🏹🔩', wordHint: 'smithing' },
 	{ itemName: 'Sinew', emojiHint: '🥩🔥🏺🏹🍖', wordHint: 'dried' },
 	{ itemName: 'Tanzanite fang', emojiHint: '🐍🔵🗡️✨🌊', wordHint: 'blowpipe' },
@@ -644,7 +655,6 @@ export const WORD_LIST = [
 	// SPEAR
 	{ itemName: 'Hunters spear', emojiHint: '🔱🌿🐾🩸🗡️', wordHint: 'pitfall' },
 	// OTHER (To recategorise)
-	{ itemName: 'Crystal bow', emojiHint: '💎🏹✨🧝🎯', wordHint: 'elf' },
 	{ itemName: 'Bow of faerdhinen', emojiHint: '💎🏹✨🧝🌟', wordHint: 'elf' },
 	{ itemName: 'Twisted bow', emojiHint: '🏹🌀🏆🎯💎', wordHint: 'raids' },
 	{ itemName: 'Chinchompa', emojiHint: '🐹💥🏹🌿🎯', wordHint: 'hunter' },
@@ -656,21 +666,253 @@ export const WORD_LIST = [
 	{ itemName: "Karil's crossbow", emojiHint: '⚰️🔩🏹🎯⚙️', wordHint: 'barrows' },
 	{ itemName: "Craw's bow", emojiHint: '🌿🏹✨⚡🎯', wordHint: 'wilds' },
 	{ itemName: 'Webweaver bow', emojiHint: '🕸️🏹✨⚡🎯', wordHint: 'wilds' },
+	// ============================================================
+	// CRAFTING - https://oldschool.runescape.wiki/w/Crafting
+	// ============================================================
+	// Materials
+	{ itemName: 'Wool', emojiHint: '🐑🧶✂️🤍☁️', wordHint: 'Sheep coat.' },
+	{ itemName: 'Flax', emojiHint: '🌾🌱💙🧵🌾', wordHint: 'Blue flower crop.' },
+	{ itemName: 'Sinew', emojiHint: '🍖🏹🧵💪🪢', wordHint: 'Animal tendon.' },
+	{ itemName: 'Roots', emojiHint: '🌱🟫🌿⛏️🪵', wordHint: 'Underground strands.' },
+	{ itemName: 'Magic roots', emojiHint: '✨🌱🔮🟣🌿', wordHint: 'Enchanted flora.' },
+	{ itemName: 'Hair', emojiHint: '💇✂️💈🧵➰', wordHint: 'Animal locks.' },
+	{ itemName: 'Hemp', emojiHint: '🌿🧶🧵💨🪵', wordHint: 'Sturdy stalk.' },
+	{ itemName: 'Cotton ball', emojiHint: '☁️🌸⚪🌾🧵', wordHint: 'Fluffy plant boll.' },
+	{ itemName: 'Jute fibre', emojiHint: '🌾📦🧶🟫🧵', wordHint: 'Coarse stem strands.' },
+	{ itemName: 'Willow branch', emojiHint: '🌳🌿🪵🏹🧺', wordHint: 'Pliant wood stick.' },
+	{ itemName: 'Linen Yarn', emojiHint: '🌾🧶🧵💨🌿', wordHint: 'Spun flax thread.' },
+	{ itemName: 'Magic string', emojiHint: '✨🪄🧵💻🔮', wordHint: 'Glowing thread.' },
+	{ itemName: 'Spinning wheel', emojiHint: '⚙️🌀🧵🪑🪵', wordHint: 'Fiber spinner.' },
+	{ itemName: 'Soft clay', emojiHint: '🟫💧👐🧱🛖', wordHint: 'Molded wet earth.' },
+	{ itemName: 'Unfired pot', emojiHint: '🟫🏺⏳⏳🧱', wordHint: 'Raw clay pot.' },
+	{ itemName: 'Unfired cup', emojiHint: '🟫☕⏳⏳🧱', wordHint: 'Raw clay cup.' },
+	{ itemName: 'Unfired pie dish', emojiHint: '🟫🥧⏳⏳🧱', wordHint: 'Raw clay dish.' },
+	{ itemName: 'Unfired bowl', emojiHint: '🟫🥣⏳⏳🧱', wordHint: 'Raw clay bowl.' },
+	{ itemName: 'Unfired plant pot', emojiHint: '🟫🪴⏳⏳🧱', wordHint: 'Raw clay planter.' },
+	{ itemName: 'Unfired pot lid', emojiHint: '🟫🥘🛡️⏳🧱', wordHint: 'Raw clay cover.' },
+	{ itemName: 'Leather', emojiHint: '🐄✂️🧵🟫🤎', wordHint: 'Tanned hide.' },
+	{ itemName: 'Hard leather', emojiHint: '🐄🛡️🔨🧱🤎', wordHint: 'Toughened hide.' },
+	{ itemName: 'Snakeskin', emojiHint: '🐍🐍🟩🟢🧵', wordHint: 'Scaly shed.' },
+	{ itemName: 'Green dragonhide', emojiHint: '🐉🟢🛡️✂️🧵', wordHint: 'Green beast scale.' },
+	{ itemName: 'Blue dragonhide', emojiHint: '🐉🔵🛡️✂️🧵', wordHint: 'Blue beast scale.' },
+	{ itemName: 'Red dragonhide', emojiHint: '🐉🔴🛡️✂️🧵', wordHint: 'Red beast scale.' },
+	{ itemName: 'Black dragonhide', emojiHint: '🐉⚫🛡️✂️🧵', wordHint: 'Dark beast scale.' },
+	{ itemName: 'Xerican fabric', emojiHint: '📜🏛️🟤🧵🏜️', wordHint: 'lizardman cloth.' },
+	{ itemName: 'Xerican fabric', emojiHint: '📜🏛️🟤🧵🏜️', wordHint: 'lizardman cloth.' },
+	{ itemName: 'Xerican fabric', emojiHint: '📜🏛️🟤🧵🏜️', wordHint: 'lizardman cloth.' },
+	{ itemName: 'Molten glass', emojiHint: '🔥🟦💨✨🔧', wordHint: 'heated sand' },
+	{ itemName: 'Battlestaff', emojiHint: '🪄⚔️🔮🌀⭕', wordHint: 'magic' },
+	{ itemName: 'Crystal shard', emojiHint: '💎✨🧩🧝🟣', wordHint: 'Elven fragment.' },
+	{ itemName: 'Crystal armour seed', emojiHint: '🌱💎🛡️✨🧝', wordHint: 'Armour core.' },
+	{ itemName: 'Crystal tool seed', emojiHint: '🌱💎🪓🔨🧝', wordHint: 'Skilling core.' },
+	{ itemName: 'Crystal weapon seed', emojiHint: '🌱💎⚔️🏹🧝', wordHint: 'Combat core.' },
+	{
+		itemName: 'Enhanced crystal teleport seed',
+		emojiHint: '🌱💎🌀🏰🧝',
+		wordHint: 'Teleport core.'
+	},
+	{
+		itemName: 'Enhanced crystal weapon seed',
+		emojiHint: '🌱💎🗡️⚡🧝',
+		wordHint: 'Empowered core.'
+	},
+	{ itemName: 'Crystal saw seed', emojiHint: '🌱💎🪚🏠🧝', wordHint: 'Carpentry core.' },
+	{ itemName: 'Crystal chime seed', emojiHint: '🌱💎🔔🎐🧝', wordHint: 'Chime core.' },
+	// Spinning
+	{ itemName: 'Ball of wool', emojiHint: '🧶🐑🌿✨🔧', wordHint: 'baaah' },
+	{ itemName: 'Linen Yarn', emojiHint: '🌾🧶🧵💨🌿', wordHint: 'flax' },
+	{ itemName: 'Magic string', emojiHint: '✨🪄🧵💻🔮', wordHint: 'from roots' },
+	{ itemName: 'Rope', emojiHint: '🪢➰⛵🧱🧗', wordHint: 'from horse hair' },
+	{ itemName: 'Hemp Yarn', emojiHint: '🌿🧶🧵💨🪵', wordHint: 'four twenty' },
+	{ itemName: 'Cotton Yarn', emojiHint: '☁️🧶🧵👕🌸', wordHint: 'fluffy' },
+	// Weaving
+	{ itemName: 'Strip of Cloth', emojiHint: '✂️👕🧶🧵🩹', wordHint: 'Torn fabric scrap.' },
+	{ itemName: 'Bolt of linen', emojiHint: '🌾🧶🧵💨🌿', wordHint: 'Woven flax roll.' },
+	{ itemName: 'Empty sack', emojiHint: '🛍️🥔📦🌾🪹', wordHint: 'Unfilled burlap bag.' },
+	{ itemName: 'Drift net', emojiHint: '🌊🐟🕸️⛵🎣', wordHint: 'Floating mesh trap.' },
+	{ itemName: 'Basket', emojiHint: '🧺🌾🔲🪵🍎', wordHint: 'Woven reed container.' },
+	{ itemName: 'Bolt of Canvas', emojiHint: '⛺🎨⛵🛡️🧱', wordHint: 'Heavy duty fabric.' },
+	{ itemName: 'Bolt of Cotton', emojiHint: '☁️🧶🧵👕🌸', wordHint: 'Soft fluffy weave.' },
+	// Pottery
+	{ itemName: 'Pot', emojiHint: '🍲🥘🍳🔥🧱', wordHint: 'Deep cooking vessel.' },
+	{ itemName: 'Empty cup', emojiHint: '☕🥛🍷🫙🪹', wordHint: 'Hollow drink vessel.' },
+	{ itemName: 'Pie dish', emojiHint: '🥧🥧🥮🥧🥧', wordHint: 'Shallow baking pan.' },
+	{ itemName: 'Bowl', emojiHint: '🥣🥗🍜🧼🪹', wordHint: 'Deep round dish.' },
+	{ itemName: 'Empty Plant pot', emojiHint: '🪴🌱🪴🪵🪹', wordHint: 'Unfilled soil planter.' },
+	{ itemName: 'Pot lid', emojiHint: '🥘🍳💨🛡️🧱', wordHint: 'Top cover cap.' },
+	// Leather Armour
+	{ itemName: 'Leather gloves', emojiHint: '🧤🐄🧵🤎🎯', wordHint: 'Hand guards.' },
+	{ itemName: 'Leather boots', emojiHint: '🥾🐄🧵🤎🎯', wordHint: 'Tanned footwear.' },
+	{ itemName: 'Leather cowl', emojiHint: '🥷🐄🧵🤎🎯', wordHint: 'Leather hood.' },
+	{ itemName: 'Leather vambraces', emojiHint: '🥊🐄🧵🛡️🎯', wordHint: 'Forearm guards.' },
+	{ itemName: 'Leather body', emojiHint: '👕🐄🧵🛡️🎯', wordHint: 'Basic tunic.' },
+	{ itemName: 'Hardleather body', emojiHint: '🥋🐄💪🛡️🎯', wordHint: 'Toughened chest.' },
+	{ itemName: 'Spiky vambraces', emojiHint: '🥊🦔💪🛡️🎯', wordHint: 'Barbed guards.' },
+	{ itemName: 'Coif', emojiHint: '🪖🌾🧵🛡️🎯', wordHint: 'Woven headpiece.' },
+	{ itemName: 'Hard leather shield', emojiHint: '🛡️🐄💪🤎🎯', wordHint: 'Toughened guard.' },
+	{ itemName: 'Studded body', emojiHint: '👕🔩🐄🛡️🎯', wordHint: 'Reinforced vest.' },
+	{ itemName: 'Studded chaps', emojiHint: '👖🔩🐄🛡️🎯', wordHint: 'Reinforced legs.' },
+	{ itemName: 'Green dhide vambraces', emojiHint: '🐉🟢🥊🛡️🏹', wordHint: 'Green bracers.' },
+	{ itemName: 'Green dhide chaps', emojiHint: '🐉🟢👖🛡️🏹', wordHint: 'Green leggings.' },
+	{ itemName: 'Green dhide shield', emojiHint: '🐉🟢🛡️🔰🏹', wordHint: 'Green defender.' },
+	{ itemName: 'Green dhide body', emojiHint: '🐉🟢👕🛡️🏹', wordHint: 'Green cuirass.' },
+	{ itemName: 'Blue dhide vambraces', emojiHint: '🐉🔵🥊🛡️🏹', wordHint: 'Blue bracers.' },
+	{ itemName: 'Blue dhide chaps', emojiHint: '🐉🔵👖🛡️🏹', wordHint: 'Blue leggings.' },
+	{ itemName: 'Blue dhide shield', emojiHint: '🐉🔵🛡️🔰🏹', wordHint: 'Blue defender.' },
+	{ itemName: 'Blue dhide body', emojiHint: '🐉🔵👕🛡️🏹', wordHint: 'Blue cuirass.' },
+	{ itemName: 'Red dhide vambraces', emojiHint: '🐉🔴🥊🛡️🏹', wordHint: 'Red bracers.' },
+	{ itemName: 'Red dhide chaps', emojiHint: '🐉🔴👖🛡️🏹', wordHint: 'Red leggings.' },
+	{ itemName: 'Red dhide shield', emojiHint: '🐉🔴🛡️🔰🏹', wordHint: 'Red defender.' },
+	{ itemName: 'Red dhide body', emojiHint: '🐉🔴👕🛡️🏹', wordHint: 'Red cuirass.' },
+	{ itemName: 'Black dhide vambraces', emojiHint: '🐉⚫🥊🛡️🏹', wordHint: 'Dark bracers.' },
+	{ itemName: 'Black dhide chaps', emojiHint: '🐉⚫👖🛡️🏹', wordHint: 'Dark leggings.' },
+	{ itemName: 'Black dhide shield', emojiHint: '🐉⚫🛡️🔰🏹', wordHint: 'Dark defender.' },
+	{ itemName: 'Black dhide body', emojiHint: '🐉⚫👕🛡️🏹', wordHint: 'Dark cuirass.' },
+	{ itemName: 'Broodoo Shield', emojiHint: '🗿👺🌿🪵🛡️', wordHint: 'Tribal buckler.' },
+	{ itemName: 'Snakeskin boots', emojiHint: '👢🐍🟢🤎🎯', wordHint: 'Scaly footwear.' },
+	{ itemName: 'Snakeskin vambraces', emojiHint: '🥊🐍🟢🛡️🎯', wordHint: 'Scaly bracers.' },
+	{ itemName: 'Snakeskin bandana', emojiHint: '🪖🐍🟢🎯🏹', wordHint: 'Scaly headwrap.' },
+	{ itemName: 'Snakeskin chaps', emojiHint: '👖🐍🟢🛡️🎯', wordHint: 'Scaly leggings.' },
+	{ itemName: 'Snakeskin body', emojiHint: '👕🐍🟢🛡️🎯', wordHint: 'Scaly chestpiece.' },
+	{ itemName: 'Snakeskin shield', emojiHint: '🛡️🐍🟢🟤🎯', wordHint: 'Scaly buckler.' },
+	{ itemName: 'Yakhide armour legs', emojiHint: '👖🦬❄️🤎🛡️', wordHint: 'Yak trousers.' },
+	{ itemName: 'Yakhide armour top', emojiHint: '👕🦬❄️🤎🛡️', wordHint: 'Yak jacket.' },
+	// Xerican Robes
+	{ itemName: 'Xerican Hat', emojiHint: '🧙📜🏛️🏜️🧵', wordHint: 'lizardman cowl.' },
+	{ itemName: 'Xerican Robe', emojiHint: '👗📜🏛️🏜️🧵', wordHint: 'lizardman skirt.' },
+	{ itemName: 'Xerican top', emojiHint: '👕📜🏛️🏜️🧵', wordHint: 'lizardman tunic.' },
+	// Splitbark
+	{ itemName: 'Splitbark helm', emojiHint: '🪖🪵🔮🌲🛡️', wordHint: 'Bark headpiece.' },
+	{ itemName: 'Splitbark body', emojiHint: '👕🪵🔮🌲🛡️', wordHint: 'Bark chestplate.' },
+	{ itemName: 'Splitbark legs', emojiHint: '👖🪵🔮🌲🛡️', wordHint: 'Bark greaves.' },
+	{ itemName: 'Splitbark gauntlets', emojiHint: '🧤🪵🔮🌲🛡️', wordHint: 'Bark gloves.' },
+	{ itemName: 'Splitbark boots', emojiHint: '🥾🪵🔮🌲🛡️', wordHint: 'Bark footwear.' },
+	// Glass
+	{ itemName: 'Beer glass', emojiHint: '🍺🍺🫙🧊🫧', wordHint: 'Frothy pint.' },
+	{ itemName: 'Candle Lantern', emojiHint: '🕯️🪔🏮🔥✨', wordHint: 'Candle lamp.' },
+	{ itemName: 'Oil Lantern', emojiHint: '🪔🛢️🔥💡🫙', wordHint: 'Kerosene light.' },
+	{ itemName: 'Vial', emojiHint: '🧪🫙💧⚗️✨', wordHint: 'Potion flask.' },
+	{ itemName: 'Fishbowl', emojiHint: '🐟🐠🫧💧🫙', wordHint: 'Aquarium globe.' },
+	{ itemName: 'Unpowered orb', emojiHint: '🔮⚪✨💎🫙', wordHint: 'Dormant sphere.' },
+	{ itemName: 'Lantern Lens', emojiHint: '🔍🔍💡✨🫙', wordHint: 'Focusing glass.' },
+	// Gems
+	{ itemName: 'Uncut Opal', emojiHint: '⚪🌈🪨⛏️💎', wordHint: 'Raw iridescent.' },
+	{ itemName: 'Uncut Jade', emojiHint: '🟢🫛🪨⛏️💎', wordHint: 'Raw green stone.' },
+	{ itemName: 'Uncut Red Topaz', emojiHint: '🔴🔥🪨⛏️💎', wordHint: 'Raw orange-red.' },
+	{ itemName: 'Uncut sapphire', emojiHint: '🔵🔷🪨⛏️💎', wordHint: 'Raw blue stone.' },
+	{ itemName: 'Uncut emerald', emojiHint: '🟢❇️🪨⛏️💎', wordHint: 'Raw green gem.' },
+	{ itemName: 'Uncut ruby', emojiHint: '🔴🔻🪨⛏️💎', wordHint: 'Raw crimson stone.' },
+	{ itemName: 'Uncut diamond', emojiHint: '💎✨🪨⛏️🔷', wordHint: 'Raw clear crystal.' },
+	{ itemName: 'Uncut dragonstone', emojiHint: '🐉🟣🪨⛏️💎', wordHint: 'Raw purple jewel.' },
+	{ itemName: 'Uncut onyx', emojiHint: '🖤⚫🪨⛏️💎', wordHint: 'Raw dark mineral.' },
+	{ itemName: 'Uncut zenyte', emojiHint: '🟠🌋🪨⛏️💎', wordHint: 'Raw orange jewel.' },
+	{ itemName: 'Opal', emojiHint: '⚪🌈✨✂️💎', wordHint: 'Polished iridescent.' },
+	{ itemName: 'Jade', emojiHint: '🟢🫛✨✂️💎', wordHint: 'Polished green.' },
+	{ itemName: 'Red Topaz', emojiHint: '🔴🔥✨✂️💎', wordHint: 'Polished topaz.' },
+	{ itemName: 'Sapphire', emojiHint: '🔵🔷✨✂️💎', wordHint: 'Cut blue gem.' },
+	{ itemName: 'Emerald', emojiHint: '🟢❇️✨✂️💎', wordHint: 'Cut green gem.' },
+	{ itemName: 'Ruby', emojiHint: '🔴🔻✨✂️💎', wordHint: 'Cut red gem.' },
+	{ itemName: 'Diamond', emojiHint: '💎✨✂️💍👑', wordHint: 'Cut clear gem.' },
+	{ itemName: 'Dragonstone', emojiHint: '🐉🟣✨✂️💎', wordHint: 'Cut purple gem.' },
+	{ itemName: 'Onyx', emojiHint: '🖤⚫✨✂️💎', wordHint: 'Cut black gem.' },
+	{ itemName: 'Zenyte', emojiHint: '🟠🌋✨✂️💎', wordHint: 'Cut orange gem.' },
+	// Silver Jewlery
+	{ itemName: 'Opal ring', emojiHint: '💍⚪🌈🪙✨', wordHint: 'Iridescent band.' },
+	{ itemName: 'Opal necklace', emojiHint: '📿⚪🌈🪙✨', wordHint: 'Iridescent chain.' },
+	{ itemName: 'Opal bracelet', emojiHint: '⌚⚪🌈🪙✨', wordHint: 'Iridescent wristlet.' },
+	{ itemName: 'Opal amulet', emojiHint: '🧿⚪🌈🪙✨', wordHint: 'Iridescent pendant.' },
+	{ itemName: 'Jade ring', emojiHint: '💍🟢🫛🪙✨', wordHint: 'Green stone band.' },
+	{ itemName: 'Jade necklace', emojiHint: '📿🟢🫛🪙✨', wordHint: 'Green stone chain.' },
+	{ itemName: 'Jade bracelet', emojiHint: '⌚🟢🫛🪙✨', wordHint: 'Green stone wristlet.' },
+	{ itemName: 'Jade amulet', emojiHint: '🧿🟢🫛🪙✨', wordHint: 'Green stone pendant.' },
+	{ itemName: 'Topaz ring', emojiHint: '💍🔴🔥🪙✨', wordHint: 'Red topaz band.' },
+	{ itemName: 'Topaz necklace', emojiHint: '📿🔴🔥🪙✨', wordHint: 'Red topaz chain.' },
+	{ itemName: 'Topaz bracelet', emojiHint: '⌚🔴🔥🪙✨', wordHint: 'Red topaz wristlet.' },
+	{ itemName: 'Topaz amulet', emojiHint: '🧿🔴🔥🪙✨', wordHint: 'Red topaz pendant.' },
+	// Gold Jewelry
+	{ itemName: 'Gold ring', emojiHint: '💍🟡👑🪙✨', wordHint: 'Plain gold band.' },
+	{ itemName: 'Gold necklace', emojiHint: '📿🟡👑🪙✨', wordHint: 'Plain gold chain.' },
+	{ itemName: 'Gold bracelet', emojiHint: '⌚🟡👑🪙✨', wordHint: 'Plain gold wristlet.' },
+	{ itemName: 'Gold amulet', emojiHint: '🧿🟡👑🪙✨', wordHint: 'Uncut gold pendant.' },
+	{ itemName: 'Sapphire ring', emojiHint: '💍🔵🔷🪙✨', wordHint: 'Blue gem band.' },
+	{ itemName: 'Sapphire necklace', emojiHint: '📿🔵🔷🪙✨', wordHint: 'Blue gem chain.' },
+	{ itemName: 'Sapphire bracelet', emojiHint: '⌚🔵🔷🪙✨', wordHint: 'Blue gem wristlet.' },
+	{ itemName: 'Sapphire amulet', emojiHint: '🧿🔵🔷🪙✨', wordHint: 'Blue gem pendant.' },
+	{ itemName: 'Emerald ring', emojiHint: '💍🟢❇️🪙✨', wordHint: 'Green gem band.' },
+	{ itemName: 'Emerald necklace', emojiHint: '📿🟢❇️🪙✨', wordHint: 'Green gem chain.' },
+	{ itemName: 'Emerald bracelet', emojiHint: '⌚🟢❇️🪙✨', wordHint: 'Green gem wristlet.' },
+	{ itemName: 'Emerald amulet', emojiHint: '🧿🟢❇️🪙✨', wordHint: 'Green gem pendant.' },
+	{ itemName: 'Ruby ring', emojiHint: '💍🔴🔻🪙✨', wordHint: 'Red gem band.' },
+	{ itemName: 'Ruby necklace', emojiHint: '📿🔴🔻🪙✨', wordHint: 'Red gem chain.' },
+	{ itemName: 'Ruby bracelet', emojiHint: '⌚🔴🔻🪙✨', wordHint: 'Red gem wristlet.' },
+	{ itemName: 'Gold tiara', emojiHint: '👑🟡👑🪙✨', wordHint: 'Golden crown.' },
+	{ itemName: 'Ruby amulet', emojiHint: '🧿🔴🔻🪙✨', wordHint: 'Red gem pendant.' },
+	{ itemName: 'Diamond ring', emojiHint: '💍💎✨🪙⭐', wordHint: 'Clear gem band.' },
+	{ itemName: 'Diamond necklace', emojiHint: '📿💎✨🪙⭐', wordHint: 'Clear gem chain.' },
+	{ itemName: 'Diamond bracelet', emojiHint: '⌚💎✨🪙⭐', wordHint: 'Clear gem wristlet.' },
+	{ itemName: 'Diamond amulet', emojiHint: '🧿💎✨🪙⭐', wordHint: 'Clear gem pendant.' },
+	{ itemName: 'Dragonstone ring', emojiHint: '💍🐉🟣🪙✨', wordHint: 'Dragon gem band.' },
+	{ itemName: 'Dragonstone necklace', emojiHint: '📿🐉🟣🪙✨', wordHint: 'Dragon gem chain.' },
+	{ itemName: 'Dragonstone bracelet', emojiHint: '⌚🐉🟣🪙✨', wordHint: 'Dragon gem wristlet.' },
+	{ itemName: 'Dragonstone amulet', emojiHint: '🧿🐉🟣🪙✨', wordHint: 'Dragon gem pendant.' },
+	{ itemName: 'Slayer Ring', emojiHint: '💍💀⚔️🪙🔮', wordHint: 'Hunter teleport ring.' },
+	{ itemName: 'Onyx ring', emojiHint: '💍🖤⚫🪙✨', wordHint: 'Dark gem band.' },
+	{ itemName: 'Onyx necklace', emojiHint: '📿🖤⚫🪙✨', wordHint: 'Dark gem chain.' },
+	{ itemName: 'Onyx bracelet', emojiHint: '⌚🖤⚫🪙✨', wordHint: 'Dark gem wristlet.' },
+	{ itemName: 'Onyx amulet', emojiHint: '🧿🖤⚫🪙✨', wordHint: 'Dark gem pendant.' },
+	{ itemName: 'Zenyte Ring', emojiHint: '💍🟠🌋🪙✨', wordHint: 'Orange gem band.' },
+	{ itemName: 'Zenyte necklace', emojiHint: '📿🟠🌋🪙✨', wordHint: 'Orange gem chain.' },
+	{ itemName: 'Zenyte bracelet', emojiHint: '⌚🟠🌋🪙✨', wordHint: 'Orange gem wristlet.' },
+	{ itemName: 'Zenyte amulet', emojiHint: '🧿🟠🌋🪙✨', wordHint: 'Orange gem pendant.' },
+	// Staff
+	{ itemName: 'Air battlestaff', emojiHint: '🪄💨🔮⚔️🌀', wordHint: 'Wind staff.' },
+	{ itemName: 'Water battlestaff', emojiHint: '🪄💧🔮⚔️🌊', wordHint: 'Water staff.' },
+	{ itemName: 'Earth battlestaff', emojiHint: '🪄🌍🔮⚔️🪨', wordHint: 'Earth staff.' },
+	{ itemName: 'Fire battlestaff', emojiHint: '🪄🔥🔮⚔️💥', wordHint: 'Fire staff.' },
+	// Amethyst
+	{ itemName: 'Amethyst bolt tips', emojiHint: '🟣💎🏹⚙️✂️', wordHint: 'Purple bolt tips.' },
+	{ itemName: 'Amethyst arrowtips', emojiHint: '🟣💎🏹🎯✂️', wordHint: 'Purple arrowheads.' },
+	{ itemName: 'Amethyst javelin tips', emojiHint: '🟣💎🗡️🎯✂️', wordHint: 'Purple javelin heads.' },
+	{ itemName: 'Amethyst dart tips', emojiHint: '🟣💎🎯🤏✂️', wordHint: 'Purple dart heads.' },
+	// Silver
+	{ itemName: 'Unstrung symbol', emojiHint: '🥈✝️✨🔨🪹', wordHint: 'Holy silver.' },
+	{ itemName: 'Unstrung emblem', emojiHint: '🥈✡️✨🔨🪹', wordHint: 'Unholy silver.' },
+	{ itemName: 'Tiara', emojiHint: '👑🥈✨🔨🔮', wordHint: 'Silver crown.' },
+	// Birdhouses
+	{ itemName: 'Bird house', emojiHint: '🪵🐦📦🪵🪤', wordHint: 'Basic nest trap.' },
+	{ itemName: 'Oak bird house', emojiHint: '🌳🪵🐦📦🪤', wordHint: 'Oak nest trap.' },
+	{ itemName: 'Willow bird house', emojiHint: '🌿🪵🐦📦🪤', wordHint: 'Willow nest trap.' },
+	{ itemName: 'Teak bird house', emojiHint: '🪵🛖🐦📦🪤', wordHint: 'Teak nest trap.' },
+	{ itemName: 'Maple bird house', emojiHint: '🍁🪵🐦📦🪤', wordHint: 'Maple nest trap.' },
+	{ itemName: 'Mahogany bird house', emojiHint: '🪵🚪🐦📦🪤', wordHint: 'Mahogany nest trap.' },
+	{ itemName: 'Yew bird house', emojiHint: '🌲🪵🐦📦🪤', wordHint: 'Yew nest trap.' },
+	{ itemName: 'Magic bird house', emojiHint: '✨🪵🐦📦🪤', wordHint: 'Enchanted nest trap.' },
+	{ itemName: 'Redwood bird house', emojiHint: '🪵🪵🐦📦🪤', wordHint: 'Redwood nest trap.' },
+	// Crystal Singing
+	{ itemName: 'Crystal Signet', emojiHint: '💎💍✨🧝👑', wordHint: 'Elven ring.' },
+	{ itemName: 'Crystal helm', emojiHint: '🪖💎✨🛡️🧝', wordHint: 'Elven helm.' },
+	{ itemName: 'Crystal legs', emojiHint: '👖💎✨🛡️🧝', wordHint: 'Elven legs.' },
+	{ itemName: 'Crystal body', emojiHint: '👕💎✨🛡️🧝', wordHint: 'Elven chest.' },
+	{ itemName: 'Crystal axe', emojiHint: '🪓💎✨🌲🧝', wordHint: 'Elven hatchet.' },
+	{ itemName: 'Crystal bow', emojiHint: '🏹💎✨🎯🧝', wordHint: 'Elven bow.' },
+	{ itemName: 'Crystal halberd', emojiHint: '🗡️💎✨🛡️🧝', wordHint: 'Elven polearm.' },
+	{ itemName: 'Crystal shield', emojiHint: '🛡️💎✨🔵🧝', wordHint: 'Elven shield.' },
+	{ itemName: 'Enhanced crystal key', emojiHint: '🗝️💎✨🏰🧝', wordHint: 'Upgraded key.' },
+	{ itemName: 'Eternal Crystal Teleport', emojiHint: '💎🌀✨🏰🧝', wordHint: 'Infinite teleport.' },
+	{ itemName: 'Crystal key', emojiHint: '🔑💎✨🏰🧝', wordHint: 'Chest key.' },
+	{ itemName: 'Blade of Saeldor', emojiHint: '⚔️💎✨🗡️🧝', wordHint: 'Elven sword.' },
+	{ itemName: 'Bow of Faerdhinen', emojiHint: '🏹💎✨🎯🧝', wordHint: 'Elven longbow.' },
+	{ itemName: 'Crystal saw', emojiHint: '🪚💎✨🧝🏠', wordHint: 'elf' },
+	{ itemName: 'Crystal chime', emojiHint: '🔔💎✨🧝🎐', wordHint: 'Elven bell.' },
 
-	// ============================================================
-	// STAVES & WANDS
-	// ============================================================
+	// TODO: Here and below
 	{ itemName: 'Staff', emojiHint: '🪄🔮🌀🌿🟤', wordHint: 'magic' },
 	{ itemName: 'Magic staff', emojiHint: '🪄🔮🌀✨🟤', wordHint: 'magic' },
 	{ itemName: 'Staff of air', emojiHint: '🪄💨🔮🌀⭕', wordHint: 'magic' },
 	{ itemName: 'Staff of water', emojiHint: '🪄💧🔮🌀⭕', wordHint: 'magic' },
 	{ itemName: 'Staff of earth', emojiHint: '🪄🌍🔮🌀⭕', wordHint: 'magic' },
 	{ itemName: 'Staff of fire', emojiHint: '🪄🔥🔮🌀⭕', wordHint: 'magic' },
-	{ itemName: 'Battlestaff', emojiHint: '🪄⚔️🔮🌀⭕', wordHint: 'magic' },
-	{ itemName: 'Air battlestaff', emojiHint: '🪄💨⚔️🔮🌀', wordHint: 'magic' },
-	{ itemName: 'Water battlestaff', emojiHint: '🪄💧⚔️🔮🌀', wordHint: 'magic' },
-	{ itemName: 'Earth battlestaff', emojiHint: '🪄🌍⚔️🔮🌀', wordHint: 'magic' },
-	{ itemName: 'Fire battlestaff', emojiHint: '🪄🔥⚔️🔮🌀', wordHint: 'magic' },
+
 	{ itemName: 'Mystic air staff', emojiHint: '🪄💨✨🔮🌀', wordHint: 'mystic' },
 	{ itemName: 'Mystic water staff', emojiHint: '🪄💧✨🔮🌀', wordHint: 'mystic' },
 	{ itemName: 'Mystic earth staff', emojiHint: '🪄🌍✨🔮🌀', wordHint: 'mystic' },
@@ -765,7 +1007,7 @@ export const WORD_LIST = [
 	{ itemName: 'Adamant halberd', emojiHint: '⚔️🟢🔩🏹🛡️', wordHint: 'range' },
 	{ itemName: 'Rune halberd', emojiHint: '⚔️🩵🔩🏹🛡️', wordHint: 'range' },
 	{ itemName: 'Dragon halberd', emojiHint: '⚔️🐉🔩🏹🛡️', wordHint: 'spec' },
-	{ itemName: 'Crystal halberd', emojiHint: '⚔️💎✨🏹🧝', wordHint: 'elf' },
+
 	{ itemName: 'Hasta', emojiHint: '⚔️🔵🌊🗡️🐲', wordHint: 'slash' },
 	{ itemName: 'Dragon hasta', emojiHint: '⚔️🐉🌊🗡️✨', wordHint: 'spec' },
 	{ itemName: 'Zamorakian hasta', emojiHint: '⚔️🔴😈🌊🗡️', wordHint: 'gwd' },
@@ -833,7 +1075,7 @@ export const WORD_LIST = [
 	{ itemName: "Inquisitor's great helm", emojiHint: '⛑️🔍✨🛡️🏆', wordHint: 'night' },
 	{ itemName: 'Justiciar faceguard', emojiHint: '⛑️⚖️🛡️✨🏆', wordHint: 'tob' },
 	{ itemName: 'Ancestral hat', emojiHint: '⛑️🏛️🔮🛡️🏆', wordHint: 'raids' },
-	{ itemName: 'Crystal helm', emojiHint: '⛑️💎✨🛡️🧝', wordHint: 'elf' },
+
 	{ itemName: 'Masori mask', emojiHint: '⛑️🏛️🏹🛡️🏆', wordHint: 'toa' },
 	{ itemName: 'Obsidian helm', emojiHint: '⛑️⚫🌋🛡️🔥', wordHint: 'tzhaar' },
 	{ itemName: 'Helm of raedwald', emojiHint: '⛑️👑🛡️✨🔮', wordHint: 'quest' },
@@ -868,7 +1110,7 @@ export const WORD_LIST = [
 	{ itemName: "Inquisitor's hauberk", emojiHint: '🛡️🔍✨⛑️🏆', wordHint: 'night' },
 	{ itemName: 'Justiciar chestguard', emojiHint: '🛡️⚖️⛑️✨🏆', wordHint: 'tob' },
 	{ itemName: 'Ancestral robe top', emojiHint: '🛡️🏛️🔮⛑️🏆', wordHint: 'raids' },
-	{ itemName: 'Crystal body', emojiHint: '🛡️💎✨⛑️🧝', wordHint: 'elf' },
+
 	{ itemName: 'Masori body', emojiHint: '🛡️🏛️🏹⛑️🏆', wordHint: 'toa' },
 	{ itemName: 'Obsidian platebody', emojiHint: '🛡️⚫🌋⛑️🔥', wordHint: 'tzhaar' },
 	{ itemName: 'Blessed body', emojiHint: '🛡️✝️🙏⛑️✨', wordHint: 'god' },
@@ -895,7 +1137,7 @@ export const WORD_LIST = [
 	{ itemName: "Inquisitor's plateskirt", emojiHint: '👖🔍✨🛡️🏆', wordHint: 'night' },
 	{ itemName: 'Justiciar legguards', emojiHint: '👖⚖️🛡️✨🏆', wordHint: 'tob' },
 	{ itemName: 'Ancestral robe bottom', emojiHint: '👖🏛️🔮🛡️🏆', wordHint: 'raids' },
-	{ itemName: 'Crystal legs', emojiHint: '👖💎✨🛡️🧝', wordHint: 'elf' },
+
 	{ itemName: 'Masori chaps', emojiHint: '👖🏛️🏹🛡️🏆', wordHint: 'toa' },
 	{ itemName: 'Obsidian platelegs', emojiHint: '👖⚫🌋🛡️🔥', wordHint: 'tzhaar' },
 
@@ -922,7 +1164,7 @@ export const WORD_LIST = [
 	{ itemName: 'Elysian spirit shield', emojiHint: '🛡️💙👻✨🙏', wordHint: 'spirit' },
 	{ itemName: 'Twisted buckler', emojiHint: '🛡️🌀🏹🏆✨', wordHint: 'raids' },
 	{ itemName: 'Avernic defender', emojiHint: '🛡️⚔️🔴✨🏆', wordHint: 'tob' },
-	{ itemName: 'Crystal shield', emojiHint: '🛡️💎✨🧝🔵', wordHint: 'elf' },
+
 	{ itemName: 'Dragonfire shield', emojiHint: '🛡️🐉🔥✨💎', wordHint: 'dragon' },
 	{ itemName: 'Dragonfire ward', emojiHint: '🛡️🐉🔥🏹✨', wordHint: 'dragon' },
 	{ itemName: 'Anti-dragon shield', emojiHint: '🛡️🐉🔥🚫⛑️', wordHint: 'dragon' },
@@ -949,7 +1191,7 @@ export const WORD_LIST = [
 	{ itemName: 'Ranger boots', emojiHint: '👢🏹🌲🟢🎯', wordHint: 'range' },
 	{ itemName: 'Infinity boots', emojiHint: '👢🔮∞✨🟣', wordHint: 'magic' },
 	{ itemName: 'Guardian boots', emojiHint: '👢🛡️⚙️✨🔵', wordHint: 'kourend' },
-	{ itemName: 'Snakeskin boots', emojiHint: '👢🐍🌿🟤🎯', wordHint: 'range' },
+
 	{ itemName: 'Brine sabre', emojiHint: '⚔️🌊🧂🟡✨', wordHint: 'slash' },
 	{ itemName: 'Bronze gloves', emojiHint: '🤜🟫🔩🛡️🆕', wordHint: 'hands' },
 	{ itemName: 'Iron gloves', emojiHint: '🤜⚫🔩🛡️🆕', wordHint: 'hands' },
@@ -1056,41 +1298,19 @@ export const WORD_LIST = [
 	{ itemName: 'Pot', emojiHint: '🪣🌾🌿🍞🔧', wordHint: 'flour' },
 	{ itemName: 'Jug', emojiHint: '🫙💧🍷🌊🔧', wordHint: 'water' },
 	{ itemName: 'Pestle and mortar', emojiHint: '🧪🌿🔧⚗️💊', wordHint: 'grind' },
-	{ itemName: 'Vial', emojiHint: '🧪💧🌿🔧⚗️', wordHint: 'potion' },
+
 	{ itemName: 'Vial of water', emojiHint: '🧪💧✨🌿⚗️', wordHint: 'potion' },
 
 	{ itemName: 'Sandworms', emojiHint: '🪱🏝️🌊🎣🔧', wordHint: 'bait' },
 
 	{ itemName: 'Glassblowing pipe', emojiHint: '🔧🫧💨🟦✨', wordHint: 'craft' },
-	{ itemName: 'Molten glass', emojiHint: '🔥🟦💨✨🔧', wordHint: 'craft' },
 
-	{ itemName: 'Ball of wool', emojiHint: '🧶🐑🌿✨🔧', wordHint: 'craft' },
-	{ itemName: 'Spinning wheel', emojiHint: '🌀🧵🐑🌿🔧', wordHint: 'spin' },
-	{ itemName: 'Soft clay', emojiHint: '🟫🌿💧🔧✨', wordHint: 'craft' },
-	{ itemName: 'Unfired bowl', emojiHint: '🟫🌿🔥🔧✨', wordHint: 'craft' },
 	{ itemName: 'Crayfish cage', emojiHint: '🦞🪤💧🎣🔧', wordHint: 'fish' },
 	{ itemName: 'Impling jar', emojiHint: '🫙🦋✨🌿🔧', wordHint: 'hunter' },
 
 	// ============================================================
 	// JEWELLERY (UNCUT GEMS)
 	// ============================================================
-	{ itemName: 'Uncut sapphire', emojiHint: '💎🔵🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Uncut emerald', emojiHint: '💎🟢🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Uncut ruby', emojiHint: '💎🔴🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Uncut diamond', emojiHint: '💎💠🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Uncut dragonstone', emojiHint: '💎🐉🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Uncut onyx', emojiHint: '💎⚫🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Uncut zenyte', emojiHint: '💎🟣🪨✨🔧', wordHint: 'gem' },
-	{ itemName: 'Sapphire', emojiHint: '💎🔵✨🔧💍', wordHint: 'blue' },
-	{ itemName: 'Emerald', emojiHint: '💎🟢✨🔧💍', wordHint: 'green' },
-	{ itemName: 'Ruby', emojiHint: '💎🔴✨🔧💍', wordHint: 'red' },
-	{ itemName: 'Diamond', emojiHint: '💎💠✨🔧💍', wordHint: 'clear' },
-	{ itemName: 'Dragonstone', emojiHint: '💎🐉✨🔧💍', wordHint: 'dragon' },
-	{ itemName: 'Onyx', emojiHint: '💎⚫✨🔧💍', wordHint: 'black' },
-	{ itemName: 'Zenyte', emojiHint: '💎🟣✨🔧💍', wordHint: 'monkey' },
-	{ itemName: 'Opal', emojiHint: '💎🌈✨🔧💍', wordHint: 'color' },
-	{ itemName: 'Red topaz', emojiHint: '💎🔴🟠✨🔧', wordHint: 'topaz' },
-	{ itemName: 'Jade', emojiHint: '💎🟢✨🔧🌿', wordHint: 'jade' },
 
 	// ============================================================
 	// PRAYER & BONES
@@ -1187,7 +1407,7 @@ export const WORD_LIST = [
 	{ itemName: 'Overgrown cat', emojiHint: '🐱😴✨🐭🎁', wordHint: 'old' },
 	{ itemName: 'Pet kitten', emojiHint: '🐱❤️✨🐭🎁', wordHint: 'pet' },
 	{ itemName: 'Dragon key piece', emojiHint: '🔑🐉✨🏰🔓', wordHint: 'quest' },
-	{ itemName: 'Crystal saw', emojiHint: '🪚💎✨🧝🏠', wordHint: 'elf' },
+
 	{ itemName: 'Monkey greegree', emojiHint: '🐒✨🗡️🏝️🔮', wordHint: 'monkey' },
 	{ itemName: 'Ape atoll teleport', emojiHint: '🐒🏝️🔮💨⚡', wordHint: 'tele' },
 	{ itemName: "Pharaoh's sceptre", emojiHint: '🏛️⚡🔮🧙✨', wordHint: 'pyramid' },
@@ -1283,7 +1503,7 @@ export const WORD_LIST = [
 	// ============================================================
 	{ itemName: 'Coins', emojiHint: '🪙💛💰🏦✨', wordHint: 'gold' },
 	{ itemName: 'Noted item', emojiHint: '📄🪙💰✨🔄', wordHint: 'noted' },
-	{ itemName: 'Crystal key', emojiHint: '💎🔑✨🏰🧝', wordHint: 'elf' },
+
 	{ itemName: 'Dragonstone amulet', emojiHint: '📿🐉💎🔵✨', wordHint: 'glory' },
 	{ itemName: 'Gout tuber', emojiHint: '🌿🌱🏝️✨🚜', wordHint: 'rare' },
 	{ itemName: 'Magic stone', emojiHint: '🪨✨🏠🔮💎', wordHint: 'build' },
@@ -1458,23 +1678,7 @@ export const WORD_LIST = [
 	// ============================================================
 	// LEATHER & CRAFTING MATERIALS
 	// ============================================================
-	{ itemName: 'Leather', emojiHint: '🐄✂️🧵💍🔧', wordHint: 'craft' },
-	{ itemName: 'Hard leather', emojiHint: '🐄✂️🧵💪🔧', wordHint: 'craft' },
-	{ itemName: 'Snakeskin', emojiHint: '🐍✂️🧵🎯🔧', wordHint: 'craft' },
-	{ itemName: 'Green dragonhide', emojiHint: '🐉🟢✂️🧵🔧', wordHint: 'craft' },
-	{ itemName: 'Blue dragonhide', emojiHint: '🐉🔵✂️🧵🔧', wordHint: 'craft' },
-	{ itemName: 'Red dragonhide', emojiHint: '🐉🔴✂️🧵🔧', wordHint: 'craft' },
-	{ itemName: 'Black dragonhide', emojiHint: '🐉⚫✂️🧵🔧', wordHint: 'craft' },
-	{ itemName: 'Royal dragonhide', emojiHint: '🐉👑✂️🧵🔧', wordHint: 'craft' },
-	{ itemName: "Green d'hide body", emojiHint: '🐉🟢🛡️🎯🔧', wordHint: 'range' },
-	{ itemName: "Blue d'hide body", emojiHint: '🐉🔵🛡️🎯🔧', wordHint: 'range' },
-	{ itemName: "Red d'hide body", emojiHint: '🐉🔴🛡️🎯🔧', wordHint: 'range' },
-	{ itemName: "Black d'hide body", emojiHint: '🐉⚫🛡️🎯🔧', wordHint: 'range' },
-	{ itemName: 'Coif', emojiHint: '⛑️🌿🧵🎯🔧', wordHint: 'range' },
-	{ itemName: 'Leather cowl', emojiHint: '⛑️🐄🧵🎯🔧', wordHint: 'range' },
-	{ itemName: 'Studded body', emojiHint: '🛡️🔩🐄🎯🔧', wordHint: 'range' },
-	{ itemName: 'Studded chaps', emojiHint: '👖🔩🐄🎯🔧', wordHint: 'range' },
-	{ itemName: 'Hardleather body', emojiHint: '🛡️🐄💪🎯🔧', wordHint: 'range' },
+
 	{ itemName: 'Blessed coif', emojiHint: '⛑️✝️🧵🎯🔧', wordHint: 'range' },
 	{ itemName: 'Blessed body', emojiHint: '🛡️✝️🧵🎯🔧', wordHint: 'range' },
 	{ itemName: 'Blessed chaps', emojiHint: '👖✝️🧵🎯🔧', wordHint: 'range' },
@@ -1490,11 +1694,7 @@ export const WORD_LIST = [
 	{ itemName: 'Mystic robe bottom', emojiHint: '👖🔮✨🟣🌀', wordHint: 'mystic' },
 	{ itemName: 'Mystic gloves', emojiHint: '🤜🔮✨🟣🌀', wordHint: 'mystic' },
 	{ itemName: 'Mystic boots', emojiHint: '👢🔮✨🟣🌀', wordHint: 'mystic' },
-	{ itemName: 'Splitbark helm', emojiHint: '⛑️🌲🔮✨🟣', wordHint: 'magic' },
-	{ itemName: 'Splitbark body', emojiHint: '🛡️🌲🔮✨🟣', wordHint: 'magic' },
-	{ itemName: 'Splitbark legs', emojiHint: '👖🌲🔮✨🟣', wordHint: 'magic' },
-	{ itemName: 'Splitbark gauntlets', emojiHint: '🤜🌲🔮✨🟣', wordHint: 'magic' },
-	{ itemName: 'Splitbark boots', emojiHint: '👢🌲🔮✨🟣', wordHint: 'magic' },
+
 	{ itemName: 'Infinity hat', emojiHint: '🎩♾️🔮✨🟣', wordHint: 'mta' },
 	{ itemName: 'Infinity top', emojiHint: '🛡️♾️🔮✨🟣', wordHint: 'mta' },
 	{ itemName: 'Infinity bottoms', emojiHint: '👖♾️🔮✨🟣', wordHint: 'mta' },
